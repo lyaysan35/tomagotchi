@@ -31,9 +31,21 @@ class Tamogotchi {
 	displayHunger() {
 		document.querySelector('#hunger').innerHTML += (": " + this.hunger);
 	}
+
+    displaySleepines() {
+		document.querySelector('#sleepy').innerHTML += (": " + this.sleepiness);
+	}
+	displayBoredom(){
+		document.querySelector('#boring').innerHTML += (": " + this.boredom);
+	}
 }
-const bobick = new Tamogotchi("bobick", 5);
+     const bobick = new Tamogotchi("bobick", 5);
+
+
+
 bobick.displayHunger();
+bobick.displaySleepines();
+bobick.displayBoredom();
 bobick.sing();
 
 // $('#hunger').on('click',(e) => {

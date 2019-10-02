@@ -1,11 +1,11 @@
 .tomogachi {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 
 }
 
 body {
-	background-color: yellow;
+	background-image: url("https://avatars.mds.yandex.net/get-pdb/1055791/14e61320-d1a5-4590-ad9b-1b7de9c7a8b8/s1200?webp=false"); 
 }
 
 #bobick {
@@ -14,3 +14,25 @@ body {
             margin-right: auto;
             width: 50%;
         } 
+
+        #age, #name {
+        	color:#3333FF;
+        	text-align: left;
+        	font-size:30px;
+        	font-family: 'Mansalva', cursive;
+        	
+        }
+
+        .feed {
+        	
+        	background-color: yellow;
+        }
+        .turn {
+        	background-color: #00FF00;
+
+        }
+        .play {
+        	background-color: orange;
+        }
+
+
