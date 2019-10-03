@@ -1,38 +1,66 @@
-.tomogachi {
+.tomogachi-pic {
   width: 200px;
   height: 200px;
+  position: center;
+}
 
+.action {
+	display: none;
 }
 
 body {
-	background-image: url("https://avatars.mds.yandex.net/get-pdb/1055791/14e61320-d1a5-4590-ad9b-1b7de9c7a8b8/s1200?webp=false"); 
+	background: url("https://avatars.mds.yandex.net/get-pdb/1055791/14e61320-d1a5-4590-ad9b-1b7de9c7a8b8/s1200?webp=false"); 
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
-#bobick {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        } 
+.tomogachi {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} 
 
-        #age, #name {
-        	color:#3333FF;
-        	text-align: left;
-        	font-size:30px;
-        	font-family: 'Mansalva', cursive;
-        	
-        }
+#age, #name {
+    color:#3333FF;
+    text-align: right;
+    font-size:30px;
+    font-family: 'Mansalva', cursive;	
+}
 
-        .feed {
-        	
-        	background-color: yellow;
-        }
-        .turn {
-        	background-color: #00FF00;
+h3 {
+   padding: 20px 0;
+}
 
-        }
-        .play {
-        	background-color: orange;
-        }
+.feed {
+	background-color: yellow;
+	width: 90px;
+    height: 40px;
+}
 
+.turn {
+    background-color: #00FF00;
+    width: 90px;
+    height: 40px;
+}
 
+.play {
+    background-color: orange;
+    width: 90px;
+    height: 40px;
+}
+
+h1 {
+    text-align: center;
+   	color: #009900;
+    font-size: 40px;
+ }
+
+ #hunger, #sleepy, #boring {
+    color: blue;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
