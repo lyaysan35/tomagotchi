@@ -113,49 +113,7 @@ class Tamogotchi {
 
 
 
-// $('#hunger').on('click',(e) => {
-// 	console.log(e.target)
-// });
 
-//Increase age of bobick
-
-// const game = {
-// 	hunger = 0;
-// 	sleepiness = 0;
-// 	boredom = 0;
-
-
-
-// function setTimer(){
-// 	 const $hunger = $('#hunger');
-// 	console.log("blalal")
-//     const interval = setInterval(() =>{
-//         if(this.hunger === 10){
-//         	clearInterval(interval);
-//           console.log ("Good bye, everyone!") 
-  
-//         } else {
-//           this.hunger++
-//         }
-
-//         // update the time on the dom
-        
-//         $hunger.innerHTML = `hunger: ${this.hunger}s`;
-
-//     }, 1000);
-// };
-
-// setTimer();
-
-
-
-// const interval = setInterval(() => {
-//             $('#hunger').text(this.hunger++);
-//             if (this.hunger === 11){
-//             clearInterval(interval);
-//             alert('Your tomigatchi has died from being too hungry. Please feed him next time');    
-//             };
-//         }, 3000) 
 
 
 

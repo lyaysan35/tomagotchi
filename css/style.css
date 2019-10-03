@@ -2,6 +2,23 @@
   width: 200px;
   height: 200px;
   position: center;
+
+   grid-area: tamagotchi;
+    grid-column: 1 / span 2;
+   position: relative;
+   position: relative;
+   animation-duration: 10s;
+   animation-name: slidein;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+@keyframes slidein {
+ from {
+   margin-left: 0%;
+ }
+ to {
+   margin-left: 50%;
+ }
 }
 
 .action {
@@ -63,4 +80,17 @@ h1 {
     color: blue;
     font-family: 'Indie Flower', cursive;
     font-size: 25px;
+}
+
+#start {
+	color: blue;
+}
+
+#input-name {
+	background-color: yellow;
+}
+
+
+#start-button {
+	background-color: #00FF00;
 }
